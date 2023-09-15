@@ -1,0 +1,70 @@
+.weatherBg {
+  /* background: url("https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg"); */
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.weatherResultBox {
+  width: 300px;
+  height: 300px;
+}
+.weatherIcon {
+  margin-top: 2rem;
+  height: 100px;
+  width: 100px;
+}
+.weatherCity {
+  font-size: 35px;
+}
+.weatherTemp {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+h3 {
+  color: grey;
+}
+.error {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.hidden {
+  visibility: hidden;
+}
+.visibilty {
+  visibility: visible !important;
+}
+.spinner {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  width: 336px;
+}
+.cardCenter {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .input {
+    width: 234px;
+  }
+}
